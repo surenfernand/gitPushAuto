@@ -15,7 +15,7 @@ attempts = 0
 print("🎯 Welcome to 'Guess the Number'!")
 print("I'm thinking of a number between {min_val} and {max_val}.")
 
-while True:
+while True: test
     try:
         guess = int(input("Take a guess: "))
         attempts += 1
